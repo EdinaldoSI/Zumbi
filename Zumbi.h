@@ -4,7 +4,7 @@ Class Zumbi{
 		Zumbi();
 		Zumbi(const int );
 		Zumbi(const int , const int );
-		Zumbi(z : Zumbi);
+		Zumbi(const Zumbi &);
 		
 	public:
 		int morder(const int);
@@ -15,5 +15,5 @@ Class Zumbi{
 		int veloc;
 		int defesa;
 		int forca;
-		string: nome;
+		string nome;
 	};
